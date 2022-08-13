@@ -7,8 +7,9 @@ const Header = () => {
       <div className="container">
         <a href="#">
           <img src={images.logo} alt="logo" />
-          <Navbar/>
         </a>
+        <Navbar/>
+      <button className="Header__button" type="button">Get Started</button>
       </div>
     </header>
   );
