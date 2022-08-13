@@ -9,7 +9,7 @@ const Header = () => {
           <img src={images.logo} alt="logo" />
         </a>
         <Navbar/>
-      <button className="Header__button" type="button">Get Started</button>
+      <button className="Header__button" type="button" aria-pressed="false">Get Started</button>
       </div>
     </header>
   );
