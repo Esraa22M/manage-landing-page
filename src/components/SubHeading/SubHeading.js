@@ -1,4 +1,5 @@
 import React from "react";
+import images from "../../constants/images";
 const SubHeading = () => {
   return (
     <div className="even-columns">
@@ -10,9 +11,11 @@ const SubHeading = () => {
           Manage makes it simple for software teams to plan day-to-day tasks
           while keeping the larger team goals in view.
         </p>
-        <button className=""> Get Started</button>
+        <button className="SubHeading__button"> Get Started</button>
       </div>
-      <div></div>
+      <div>
+        <img src={images.Illustration} alt="illustration graph" loading="lazy"/>
+      </div>
     </div>
   );
 };
