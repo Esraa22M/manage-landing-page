@@ -1,7 +1,7 @@
 import React from "react";
 const AboutTeam = () => {
   return (
-    <section className="bg-primary-200 text-primary-100">
+    <section className="bg-primary-200 text-primary-100 padding-block-700">
       <div className="container">
         <div className="even-columns">
           <div>
@@ -12,7 +12,7 @@ const AboutTeam = () => {
           </div>
           <div>
             <button className="button" datatype="inverted">
- Get Started
+              Get Started
             </button>
           </div>
         </div>

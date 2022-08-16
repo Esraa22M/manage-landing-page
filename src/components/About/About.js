@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
   return (
-    <section>
+    <section className="padding-block-900">
       <div className="container">
         <div className="even-columns">
           <div>

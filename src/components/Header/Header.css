@@ -1,0 +1,21 @@
+.Header__visually-hidden{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.Header__mobile-nav-toggle {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0.5em;
+    border: unset;
+}
+.Header__mobile-nav-toggle .Header_icon-close{
+    display: none;
+}
+.primary-header{
+    margin-top: var(--space-700);
+}

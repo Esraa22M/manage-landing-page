@@ -6,12 +6,10 @@ import AboutTeam from "../AboutTeam/AboutTeam";
 const Main = () => {
   return (
     <section>
-      <div className="Main__container">
        <SubHeading/>
        <About/>
        <Carousal/>
        <AboutTeam/>
-      </div>
     </section>
   );
 };
